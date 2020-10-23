@@ -1,11 +1,11 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: "清华大学 TUNA 协会"
-brand: "清华大学 TUNA 协会"
-description: "前·清华大学网管会"
+title: "南方科技大学计算机研究协会"
+brand: "南方科技大学计算机研究协会"
+description: "& 南方科技大学LUG"
 baseurl: "" #important: start with /
-url: "https://tuna.moe"
+url: "https://www.cra.moe"
 
 # Build settings
 highlighter: rouge
@@ -22,6 +22,6 @@ future: true
 google_verify: Lwh0NyQ1YAKRuLlXXkk0_QvgJpGLRQVA8xaoRn81Ysk
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "清华大学 TUNA 协会原名清华大学学生网管会，注册名清华大学学生网络与开源软件协会，是由清华大学网络技术和开源软件爱好者、技术宅组成的团体。现阶段向校内外提供开源软件镜像等服务。"
+about: "南方科技大学计算机研究协会，是由南方科技大学网络技术和开源软件爱好者、技术宅组成的团体。现阶段向校内提供开源软件镜像等服务。"
 
 include: ['_pages']

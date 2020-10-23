@@ -15,10 +15,11 @@
       <ul class="nav navbar-nav">
         <li {% if page.permalink == "/" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
         <li {% if page.permalink == "/events/" or page.categories contains "event"  %}class="active"{% endif %}><a href="{{"/events/" | prepend: site.baseurl }}">EVENTS</a></li>
-        <li {% if page.permalink == "/blog/" or page.categories contains "blog" %}class="active"{% endif %}><a href="{{"/blog/" | prepend: site.baseurl }}">BLOG</a></li>
+<!--        <li {% if page.permalink == "/blog/" or page.categories contains "blog" %}class="active"{% endif %}><a href="{{"/blog/" | prepend: site.baseurl }}">BLOG</a></li> -->
+        <li><a href="https://blog.sustcra.com/">BLOG</a></li>
         <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
-        <li><a href="https://podcast.tuna.moe/">PODCAST</a></li>
-        <li><a href="http://mirrors.tuna.tsinghua.edu.cn/">MIRRORS</a></li>
+        <li><a href="https://mirrors.cra.moe/">MIRRORS-CRA</a></li>
+        <li><a href="https://mirrors.sustech.rocks/">MIRRORS-HPC</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>
