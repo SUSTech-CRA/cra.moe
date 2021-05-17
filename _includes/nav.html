@@ -14,12 +14,13 @@
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
         <li {% if page.permalink == "/" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">HOME</a></li>
-        <li {% if page.permalink == "/events/" or page.categories contains "event"  %}class="active"{% endif %}><a href="{{"/events/" | prepend: site.baseurl }}">EVENTS</a></li>
-<!--        <li {% if page.permalink == "/blog/" or page.categories contains "blog" %}class="active"{% endif %}><a href="{{"/blog/" | prepend: site.baseurl }}">BLOG</a></li> -->
+<!--        <li {% if page.permalink == "/events/" or page.categories contains "event"  %}class="active"{% endif %}><a href="{{"/events/" | prepend: site.baseurl }}">EVENTS</a></li>-->
+        <li><a href="https://blog.sustcra.com/categories/events/">EVENTS</a></li>
+        <!--        <li {% if page.permalink == "/blog/" or page.categories contains "blog" %}class="active"{% endif %}><a href="{{"/blog/" | prepend: site.baseurl }}">BLOG</a></li> -->
         <li><a href="https://blog.sustcra.com/">BLOG</a></li>
         <li><a href="{{ "/feed.xml" | prepend: site.baseurl }}">RSS</a></li>
-        <li><a href="https://mirrors.cra.moe/">MIRRORS-CRA</a></li>
-        <li><a href="https://mirrors.sustech.rocks/">MIRRORS-HPC</a></li>
+        <li><a href="https://mirrors.sustech.edu.cn/">MIRRORS</a></li>
+        <li><a href="https://sharelatex.cra.moe/">ShareLaTeX</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>

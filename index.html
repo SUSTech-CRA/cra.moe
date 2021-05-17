@@ -12,8 +12,8 @@ permalink: /
     </div>
     <div class="row centered" id="service-list">
       <div class="col-md-3 col-xs-6">
-        <a href="https://mirrors.tuna.tsinghua.edu.cn/">{% include pic.html name="service/mirrors" %}</a>
-        <h4>开源镜像站 <a href="https://mirrors.cra.moe/"><i class="fa fa-hand-o-right"></i></a></h4>
+        <a href="https://mirrors.sustech.edu.cn/">{% include pic.html name="service/mirrors" %}</a>
+        <h4>开源镜像站 <a href="https://mirrors.sustech.edu.cn/"><i class="fa fa-hand-o-right"></i></a></h4>
         <p>多快好省</p>
       </div>
       <div class="col-md-3 col-xs-6">
@@ -21,34 +21,50 @@ permalink: /
         <h4>DNS123 <a href="{{ "/help/dns/" | prepend: site.baseurl }}"><i class="fa fa-hand-o-right"></i></a></h4>
         <p>10.20.110.123</p>
       </div>
+      <div class="col-md-3 col-xs-6">
+        <a href="https://mirrors.sustech.edu.cn/git/">{% include pic.html name="service/git" %}</a>
+        <h4>CRA Gitlab<a href="https://mirrors.sustech.edu.cn/git/"><i class="fa fa-hand-o-right"></i></a></h4>
+        <p>Git 代码托管</p>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <a href="https://sharelatex.cra.moe">{% include pic.html name="service/sharelatex" %}</a>
+        <h4>ShareLaTeX<a href="https://sharelatex.cra.moe"><i class="fa fa-hand-o-right"></i></a></h4>
+        <p>在线 LaTeX 写作</p>
+      </div>
+      <div class="col-md-3 col-xs-6">
+        <a href="https://c.cra.moe">{% include pic.html name="service/bbs" %}</a>
+        <h4>CRA Community<a href="https://c.cra.moe"><i class="fa fa-hand-o-right"></i></a></h4>
+        <p>欢迎来玩~</p>
+      </div>
 <!--      <div class="col-md-3 col-xs-6">
         <a href="{{ "/help/ntp/" | prepend: site.baseurl }}">{% include pic.html name="service/ntp" %}</a>
         <h4>网络授时 <a href="{{ "/help/ntp/" | prepend: site.baseurl }}"><i class="fa fa-hand-o-right"></i></a></h4>
         <p>准时准点</p>
       </div>
-{% unless site.isthu %}
-      <div class="col-md-3 col-xs-6">
-        <a href="https://fishroom.tuna.moe/">{% include pic.html name="service/fishroom" %}</a>
-        <h4>鱼屋 <a href="https://fishroom.tuna.moe/"><i class="fa fa-hand-o-right"></i></a></h4>
-        <p>一起聊天</p>
-      </div>
-      <div class="col-md-3 col-xs-6">
-        <a href="https://live.tuna.tsinghua.edu.cn/">{% include pic.html name="service/live" %}</a>
-        <h4>直播 <a href="https://live.tuna.tsinghua.edu.cn/"><i class="fa fa-hand-o-right"></i></a></h4>
-        <p>TUNA TV</p>
-      </div>
-      <div class="col-md-3 col-xs-6">
-        <a href="http://dm.tuna.moe/">{% include pic.html name="service/danmaku" %}</a>
-        <h4>弹幕 <a href="http://dm.tuna.moe/"><i class="fa fa-hand-o-right"></i></a></h4>
-        <p>互动演讲</p>
-      </div>
-      <div class="col-md-3 col-xs-6">
-        <a href="{{ "/cal/" | prepend: site.baseurl }}">{% include pic.html name="service/calendar" %}</a>
-        <h4>活动日历 <a href="{{ "/cal/" | prepend: site.baseurl }}"><i class="fa fa-hand-o-right"></i></a></h4>
-        <p>不要错过活动</p>
-      </div>
-{% endunless %}
 -->
+<!--{% unless site.isthu %}-->
+<!--      <div class="col-md-3 col-xs-6">-->
+<!--        <a href="https://fishroom.tuna.moe/">{% include pic.html name="service/fishroom" %}</a>-->
+<!--        <h4>鱼屋 <a href="https://fishroom.tuna.moe/"><i class="fa fa-hand-o-right"></i></a></h4>-->
+<!--        <p>一起聊天</p>-->
+<!--      </div>-->
+<!--      <div class="col-md-3 col-xs-6">-->
+<!--        <a href="https://live.tuna.tsinghua.edu.cn/">{% include pic.html name="service/live" %}</a>-->
+<!--        <h4>直播 <a href="https://live.tuna.tsinghua.edu.cn/"><i class="fa fa-hand-o-right"></i></a></h4>-->
+<!--        <p>TUNA TV</p>-->
+<!--      </div>-->
+<!--      <div class="col-md-3 col-xs-6">-->
+<!--        <a href="http://dm.tuna.moe/">{% include pic.html name="service/danmaku" %}</a>-->
+<!--        <h4>弹幕 <a href="http://dm.tuna.moe/"><i class="fa fa-hand-o-right"></i></a></h4>-->
+<!--        <p>互动演讲</p>-->
+<!--      </div>-->
+<!--      <div class="col-md-3 col-xs-6">-->
+<!--        <a href="{{ "/cal/" | prepend: site.baseurl }}">{% include pic.html name="service/calendar" %}</a>-->
+<!--        <h4>活动日历 <a href="{{ "/cal/" | prepend: site.baseurl }}"><i class="fa fa-hand-o-right"></i></a></h4>-->
+<!--        <p>不要错过活动</p>-->
+<!--      </div>-->
+<!--{% endunless %}-->
+
       <div class="col-md-3 col-xs-6">
         <a href="https://github.com/sustech-cra/issues/">{% include pic.html name="service/issues" %}</a>
         <h4>Issues <a href="https://github.com/sustech-cra/issues/"><i class="fa fa-hand-o-right"></i></a></h4>
@@ -97,7 +113,9 @@ permalink: /
       </div>
       {% endfor %}
       <div>
-        <a href={{"/events/"|prepend: site.baseurl}}><i class="fa fa-hand-o-right"></i> 所有活动</a>
+<!--        <a href={{"/events/"|prepend: site.baseurl}}><i class="fa fa-hand-o-right"></i> 所有活动</a>-->
+        <a href="https://blog.sustcra.com/categories/events/"><i class="fa fa-hand-o-right"></i>请访问 CRA Blog</a>
+
       </div>
     </div>
     <div id="recent-posts" class="col-md-6 col-md-pull-6">
@@ -118,7 +136,9 @@ permalink: /
       </div>
       {% endfor %}
       <div>
-        <a href={{"/blog/"|prepend: site.baseurl}}><i class="fa fa-hand-o-right"></i> 所有文章</a>
+<!--        <a href={{"/blog/"|prepend: site.baseurl}}><i class="fa fa-hand-o-right"></i> 所有文章</a>-->
+        <a href="https://blog.sustcra.com/"><i class="fa fa-hand-o-right"></i> 请访问 CRA Blog</a>
+
       </div>
     </div>
   </div>
