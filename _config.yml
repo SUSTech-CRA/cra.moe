@@ -25,7 +25,7 @@ google_verify: Lwh0NyQ1YAKRuLlXXkk0_QvgJpGLRQVA8xaoRn81Ysk
 about: "南方科技大学计算机研究协会，是由南方科技大学网络技术和开源软件爱好者、技术宅组成的团体。现阶段向校内外提供开源软件镜像，git等服务。"
 
 include: 
-- _pages
-- ads.txt
+    - _pages
+    - ads.txt
 
 
